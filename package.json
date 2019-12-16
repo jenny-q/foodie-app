@@ -1,18 +1,26 @@
 {
   "name": "foodie",
   "version": "1.0.0",
-  "description": "foodie project to search recipes",
+  "description": "foodie app, search for recipes with no ads",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "build" : "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "Jennifer Quispe",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.2.0",
-    "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.5.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.4",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {}
 }
