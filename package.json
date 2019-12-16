@@ -1,0 +1,17 @@
+{
+  "name": "foodie",
+  "version": "1.0.0",
+  "description": "foodie project to search recipes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build" : "webpack --mode production"
+  },
+  "author": "Jennifer Quispe",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}
