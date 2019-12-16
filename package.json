@@ -10,8 +10,9 @@
   "author": "Jennifer Quispe",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.41.3",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {}
 }
