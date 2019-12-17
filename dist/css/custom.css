@@ -1,0 +1,6 @@
+.results__list {
+    list-style: none;
+}
+.results__list .results__fig {
+    width: 200px;
+}
