@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <title>foodie | recipe search</title>
 </head>
+
 <body>
-    
+
+    <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <h1 class="title">foodie</h1>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title">Search for the perfect recipe</h2>
+                <div class="field has-addons search">
+                    <div class="control">
+                        <input class="input search__field" type="text" placeholder="Search recipes">
+                    </div>
+                    <div class="control">
+                        <button class="button is-info">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <strong>foodie</strong> by <a href="https://jenniferquispe.com">Jennifer Quispe</a>. API by <a
+                href="http://food2fork.com" target="_blank" class="link">Food2Fork.com</a>.
+        </div>
+    </footer>
+
 </body>
+
 </html>
